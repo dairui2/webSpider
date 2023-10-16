@@ -1,5 +1,3 @@
-#爬取数据，解析数据，存储数据
-# 爬取数据 urllib.request模块
 import urllib.request
 
 url = 'http://p.weather.com.cn'         # 爬取数据的网址

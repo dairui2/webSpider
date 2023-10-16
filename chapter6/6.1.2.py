@@ -1,13 +1,3 @@
-#爬取数据，解析数据，存储数据
-# 解析数据  解析html数据通过BeautifulSoup对象实现
-# beautifulSoup对象的常用函数
-# find_all(tagname):根据标签名返回符合条件的所有元素；
-# find(tagname):根据标签名返回符合条件的第一个元素；
-# select(selector):通过CSS中的选择器查找符合条件的所有元素;
-# get(key, default=None):获取标签名
-# time:获取当前html页面中title属性的值
-# text:返回标签中的文本内容
-
 import urllib.request
 from bs4 import BeautifulSoup
 

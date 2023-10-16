@@ -1,6 +1,3 @@
-#爬取数据，解析数据，存储数据
-# 存储数据  解析html数据通过BeautifulSoup对象实现,对象解析器有4种可用（html.parser, lxml, lxml-xml, html5lib）
-
 import os
 import urllib.request
 from bs4 import BeautifulSoup
