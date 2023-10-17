@@ -1,3 +1,23 @@
+# Selenium模拟web浏览器爬取数据
+# selenium需要操作本地浏览器，默认是Firefox,因此推荐安装Firefox,要求是55以上版本。由于版本兼容的问题，还需要下载浏览器引擎GeckoDriver
+# Selenium操作浏览器是通过WebDriver对象实现的，WebDriver对象提供了操作浏览器和访问HTML源码中数据的函数
+
+# find_element_by_id                # 通过元素的id查找符合条件的第一个元素
+# find_elements_by_id               # 通过元素的id查找符合条件的所有元素
+# find_element_by_name(name)        # 通过元素的名称查找符合条件的第一个元素
+# find_elements_by_name(name)
+# find_element_by_tag(name)         # 通过元素的标签名查找符合条件的第一个元素
+# find_elements_by_tag(name)
+# find_element_by_xpath(name)       # 通过xpath查找符合条件的第一个元素
+# find_elements_by_xpath(name)
+
+# find_element_by_link_text(link_text)          # 通过连接文本查找符合条件的第一个元素
+# find_elements_by_link_text(link_text)
+# find_element_by_class_name(name)              # 通过CSS中class属性查找符合条件的第一个元素
+# find_elements_by_class_name(name)
+# find_element_by_css_selector(css_selector)    # 通过CSS中的选择器查找符合条件的第一个元素
+# find_elements_by_css_selector(css_selector)
+
 from selenium import webdriver
 
 def getdata(stockcode):                 # stockcode参数表示股票代号
